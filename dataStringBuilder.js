@@ -1,7 +1,6 @@
 var btn = document.getElementById('btn'),
   container = document.getElementById('results'),
-  counter = 0,
-  theptags = document.getElementsByTagName('p');
+  counter = 0;
 
 btn.addEventListener('click', function(){
   var myRequest,
